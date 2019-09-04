@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tutorial_1"/>
+
+    <TextView
+        android:id="@+id/tv_start_headlines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:padding="12dp"
+        android:background="@drawable/start_headlines_bg"
+        android:textColor="@color/launcher_item_select"
+        android:visibility="invisible"
+        android:text="开启我的应用"/>
+
+</FrameLayout>
